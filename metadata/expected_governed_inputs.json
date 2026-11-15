@@ -1,0 +1,14 @@
+{
+  "HMACS_Batch1": {
+    "filename": "HMACS_Batch1_standardized.csv.gz",
+    "SHA256": "26253ed81e9ca22cb1a44c26746ff34fe26e35c5b5861076cc713fcdc62e2681",
+    "rows": 722,
+    "proteins": 1222
+  },
+  "HMACS_Batch2": {
+    "filename": "HMACS_Batch2_standardized.csv.gz",
+    "SHA256": "892cb9c3dbffa5144dc29478a4343d8afb87296455ef752e2d220efd9a9c5d94",
+    "rows": 833,
+    "proteins": 1222
+  }
+}

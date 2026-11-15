@@ -1,0 +1,170 @@
+[
+  {
+    "component": "atomic_csv",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "eb1776a843c908b367146569619d7b168d866b822ec5ffb5ece160ac0de10305",
+    "unchanged": true
+  },
+  {
+    "component": "Bundle",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "5311503990a68624359daee1598fa4189efdc2604fd1d1a6f629434d78975913",
+    "unchanged": true
+  },
+  {
+    "component": "read_bundle",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "c8bbc10f0a8fc1e34f285006fbc1530112db00b1de25ff1aed8e057d484b9079",
+    "unchanged": true
+  },
+  {
+    "component": "weighted_score",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "fb648db5f8710bb0315216505f51cf907fab07af1782891153dc5bfd7c17eed8",
+    "unchanged": true
+  },
+  {
+    "component": "feature_matrix",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "b7a19975aad00f0abbd573b8dd94151245f359ce2b56786f920aaa791b9bf7e3",
+    "unchanged": true
+  },
+  {
+    "component": "fold_seed",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "4e344016c2e51210fde76b1cc9cdaaaff56f90a6e465da3147e63d10fb19b772",
+    "unchanged": true
+  },
+  {
+    "component": "select_alpha_one_se",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "e8f7fb148a025dfd7fbe76baa783260037f636af5c275a9edd71174229d53c70",
+    "unchanged": true
+  },
+  {
+    "component": "within_crossfit",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "8d7ef1161d8a148d08329405c08fa16807362be27aa5e870c579d78af1d9a9b8",
+    "unchanged": true
+  },
+  {
+    "component": "fit_cross_batch_ridge",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "d7b66bde0718f2489c480a4cf9571ff8fe49d8de9987abf433903dbd891e89af",
+    "unchanged": true
+  },
+  {
+    "component": "pearson",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "399b5f0cc4e21696da816db618fdcf56367ed4cedaab1216024d226528d0f339",
+    "unchanged": true
+  },
+  {
+    "component": "spearman",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "c0fe7cf50087d9c4f7ce80b079233fb77a3b528cc9adde59f375c1671c9968f0",
+    "unchanged": true
+  },
+  {
+    "component": "ccc",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "604bca195b7b2e2fc09b7421e829b604c86a4b6b72031356f42a4202e5654014",
+    "unchanged": true
+  },
+  {
+    "component": "metrics",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "dedb7711e40fdfa6f8e467539cf383fed5c6fe85b106047d6b27ede0600b1a9c",
+    "unchanged": true
+  },
+  {
+    "component": "compute_predictions",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "f794a5009aabd5e53fc7e354d4edbc38de65441d64bd143a8bbb49437817813d",
+    "unchanged": true
+  },
+  {
+    "component": "cell_metrics",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "b470cc78792139e48f24c4e64cdc0f37a485bd0269e8b082e11d4cee4d9a5562",
+    "unchanged": true
+  },
+  {
+    "component": "participant_bootstrap_indices",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "a6ab7d8829e1f60aa39ee01e94b6acedcfc775bf3fad991d17f54802bbb3d10a",
+    "unchanged": true
+  },
+  {
+    "component": "percentile_inference",
+    "source_file": "run_stage24_headroom.py",
+    "source_family": "frozen Stage24",
+    "source_function_SHA256": "8ed22943f46cb33329c2c543d0f5a246612b756d04eae3c68b4aa8c954e4ead3",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/core.R",
+    "source_file": "core.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "2aa77ae896ad4ae81bf0ba61b2d57e9903a9663a5332b0ac3ab0e1dfc488fa07",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/evaluation.R",
+    "source_file": "evaluation.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "cb2af0627f4ab399d7f580e70cc4de4380eb985dbe88d86d792cdcc5e5c9537e",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/fidelity.R",
+    "source_file": "fidelity.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "7f77c4223e66c046cf7a12a78694124607fabbc8351a0cd76a557f5e557af420",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/mapping.R",
+    "source_file": "mapping.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "0b09ac49919ca62d71168d765ac60e638f28393407e121ab07c3dfa04bcd6f61",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/model.R",
+    "source_file": "model.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "21624da3575196408cbc85db93989a4d72ff375b6c158ec32547ad37d87a51e6",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/simulate.R",
+    "source_file": "simulate.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "195f1742e13ede1bbfd2699a16ce65e058d48c1c5e6f5609f524c52d18466590",
+    "unchanged": true
+  },
+  {
+    "component": "crnp/R/zzz.R",
+    "source_file": "zzz.R",
+    "source_family": "crnp 0.2.0",
+    "SHA256": "26f38f65b18c1cb75f965294a21162ae486977f4a2513c1db5da4b680a302439",
+    "unchanged": true
+  }
+]

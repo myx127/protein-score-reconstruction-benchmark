@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "data_kind": "independent_synthetic_predictions",
+  "settings": 72,
+  "directions": 2,
+  "bootstrap_replicates": 5,
+  "point_max_abs_difference": 0.0,
+  "bootstrap_max_abs_difference": 4.440892098500626e-16,
+  "comparison": "portable aggregate/cached bootstrap versus exact original frozen driver functions",
+  "participant_matrices_read": 0,
+  "source_driver_SHA256": "5aaceaa898f38cfb060ba8da9a1fb811f073b982895dfe4a83556c31a0619196"
+}

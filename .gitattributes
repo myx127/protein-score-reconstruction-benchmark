@@ -1,0 +1,3 @@
+# Preserve frozen source/metadata bytes and SHA256 checks across checkouts.
+# This disables line-ending normalization; it does not suppress text diffs.
+* -text

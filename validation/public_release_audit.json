@@ -1,0 +1,313 @@
+{
+  "status": "PASS",
+  "files_scanned": 95,
+  "public_csv_tables": 14,
+  "csv_inventory": [
+    {
+      "file": "metadata/emory_feature_mapping.csv",
+      "rows": 4444,
+      "columns": [
+        "input_id",
+        "feature_id",
+        "protein_id",
+        "conservative_eligible",
+        "mapping_route"
+      ]
+    },
+    {
+      "file": "metadata/emory_module_weights.csv",
+      "rows": 1222,
+      "columns": [
+        "ModuleColor",
+        "ProteinID",
+        "kME_ownModule"
+      ]
+    },
+    {
+      "file": "metadata/hmacs_module_weights.csv",
+      "rows": 1222,
+      "columns": [
+        "source_system",
+        "module",
+        "protein",
+        "weight"
+      ]
+    },
+    {
+      "file": "metadata/paper_coverage_masks.csv",
+      "rows": 2386,
+      "columns": [
+        "mask_id",
+        "source_system",
+        "module",
+        "target_dataset",
+        "platform_branch",
+        "protein"
+      ]
+    },
+    {
+      "file": "metadata/paper_direction_units.csv",
+      "rows": 72,
+      "columns": [
+        "direction_unit_id",
+        "mask_unit_id",
+        "module",
+        "platform_label",
+        "direction",
+        "train_batch",
+        "test_batch",
+        "full_module_proteins",
+        "observed_proteins",
+        "primary_analysis",
+        "status"
+      ]
+    },
+    {
+      "file": "metadata/paper_random_seeds.csv",
+      "rows": 6072,
+      "columns": [
+        "stream",
+        "replicate",
+        "seed",
+        "role"
+      ]
+    },
+    {
+      "file": "metadata/paper_timing_order.csv",
+      "rows": 432,
+      "columns": [
+        "sequence",
+        "phase",
+        "repeat",
+        "case_index",
+        "method"
+      ]
+    },
+    {
+      "file": "metadata/paper_timing_units.csv",
+      "rows": 24,
+      "columns": [
+        "case_index",
+        "direction_unit_id",
+        "mask_unit_id",
+        "module",
+        "platform_label",
+        "direction",
+        "train_batch",
+        "test_batch",
+        "full_module_proteins",
+        "observed_proteins",
+        "primary_analysis",
+        "status",
+        "n_train",
+        "n_test",
+        "protein_coverage"
+      ]
+    },
+    {
+      "file": "results/published/Emory_concordance.csv",
+      "rows": 3,
+      "columns": [
+        "endpoint",
+        "level",
+        "estimate",
+        "cells",
+        "endpoint_key",
+        "ci_low",
+        "ci_high",
+        "bootstrap_se",
+        "nominal_p",
+        "adjusted_p",
+        "finite_replicates",
+        "evidence_classification",
+        "metric_definition",
+        "participants",
+        "ci_scope",
+        "display",
+        "source"
+      ]
+    },
+    {
+      "file": "results/published/HMACS_72_settings.csv",
+      "rows": 72,
+      "columns": [
+        "direction_unit_id",
+        "mask_unit_id",
+        "module",
+        "platform_label",
+        "direction",
+        "train_batch",
+        "test_batch",
+        "full_module_proteins",
+        "observed_proteins",
+        "primary_analysis",
+        "status",
+        "target_dataset",
+        "platform_branch",
+        "protein_coverage",
+        "missing_fraction",
+        "full_abs_weight_sum",
+        "observed_abs_weight_sum",
+        "absolute_weight_coverage",
+        "coverage_role",
+        "direct__n",
+        "direct__risk",
+        "direct__method_gain",
+        "direct__relative_gain",
+        "direct__captured_headroom",
+        "within_cf_ridge__n",
+        "within_cf_ridge__risk",
+        "within_cf_ridge__method_gain",
+        "within_cf_ridge__relative_gain",
+        "within_cf_ridge__captured_headroom",
+        "cross_batch_ridge__n",
+        "cross_batch_ridge__risk",
+        "cross_batch_ridge__method_gain",
+        "cross_batch_ridge__relative_gain",
+        "cross_batch_ridge__captured_headroom",
+        "CRNP_v0.2.0__n",
+        "CRNP_v0.2.0__risk",
+        "CRNP_v0.2.0__method_gain",
+        "CRNP_v0.2.0__relative_gain",
+        "CRNP_v0.2.0__captured_headroom",
+        "empirical_headroom",
+        "ridge_transport_loss",
+        "cross_batch_ridge_improved",
+        "CRNP_improved"
+      ]
+    },
+    {
+      "file": "results/published/HMACS_directions.csv",
+      "rows": 8,
+      "columns": [
+        "summary_level",
+        "summary_id",
+        "method",
+        "risk",
+        "direct_risk",
+        "method_gain",
+        "relative_gain",
+        "empirical_headroom",
+        "transport_loss",
+        "captured_headroom",
+        "status",
+        "risk_ci_low",
+        "risk_ci_high",
+        "risk_bootstrap_n",
+        "method_gain_ci_low",
+        "method_gain_ci_high",
+        "method_gain_bootstrap_n",
+        "relative_gain_ci_low",
+        "relative_gain_ci_high",
+        "relative_gain_bootstrap_n",
+        "empirical_headroom_ci_low",
+        "empirical_headroom_ci_high",
+        "empirical_headroom_bootstrap_n",
+        "transport_loss_ci_low",
+        "transport_loss_ci_high",
+        "transport_loss_bootstrap_n",
+        "captured_headroom_ci_low",
+        "captured_headroom_ci_high",
+        "captured_headroom_bootstrap_n",
+        "paper_role",
+        "source",
+        "ci_scope",
+        "risk_display",
+        "relative_gain_display",
+        "captured_headroom_display"
+      ]
+    },
+    {
+      "file": "results/published/HMACS_heterogeneity.csv",
+      "rows": 32,
+      "columns": [
+        "method",
+        "stratum_type",
+        "stratum_id",
+        "cells",
+        "improved_cells",
+        "worsened_cells",
+        "tied_cells",
+        "min_relative_gain",
+        "max_relative_gain",
+        "median_cell_relative_gain",
+        "interpretation"
+      ]
+    },
+    {
+      "file": "results/published/HMACS_overall.csv",
+      "rows": 4,
+      "columns": [
+        "summary_level",
+        "summary_id",
+        "method",
+        "risk",
+        "direct_risk",
+        "method_gain",
+        "relative_gain",
+        "empirical_headroom",
+        "transport_loss",
+        "captured_headroom",
+        "status",
+        "risk_ci_low",
+        "risk_ci_high",
+        "risk_bootstrap_n",
+        "method_gain_ci_low",
+        "method_gain_ci_high",
+        "method_gain_bootstrap_n",
+        "relative_gain_ci_low",
+        "relative_gain_ci_high",
+        "relative_gain_bootstrap_n",
+        "empirical_headroom_ci_low",
+        "empirical_headroom_ci_high",
+        "empirical_headroom_bootstrap_n",
+        "transport_loss_ci_low",
+        "transport_loss_ci_high",
+        "transport_loss_bootstrap_n",
+        "captured_headroom_ci_low",
+        "captured_headroom_ci_high",
+        "captured_headroom_bootstrap_n",
+        "paper_role",
+        "source",
+        "ci_scope",
+        "risk_display",
+        "relative_gain_display",
+        "captured_headroom_display"
+      ]
+    },
+    {
+      "file": "results/published/Timing_overall.csv",
+      "rows": 3,
+      "columns": [
+        "scope",
+        "stratum",
+        "method",
+        "case_count",
+        "formal_repeat_records",
+        "fit_s_median",
+        "fit_s_median_across_case_q25",
+        "fit_s_median_across_case_q75",
+        "fit_s_median_across_case_min",
+        "fit_s_median_across_case_max",
+        "prediction_ms_median",
+        "prediction_ms_median_across_case_q25",
+        "prediction_ms_median_across_case_q75",
+        "prediction_ms_median_across_case_min",
+        "prediction_ms_median_across_case_max",
+        "prediction_ms_per_1000_people_linear_normalization",
+        "prediction_ms_per_1000_people_linear_normalization_across_case_q25",
+        "prediction_ms_per_1000_people_linear_normalization_across_case_q75",
+        "prediction_ms_per_1000_people_linear_normalization_across_case_min",
+        "prediction_ms_per_1000_people_linear_normalization_across_case_max",
+        "median_within_case_fit_iqr_fraction",
+        "median_within_case_prediction_iqr_fraction",
+        "summary_definition",
+        "fit_status",
+        "fit_display_s",
+        "prediction_display_ms"
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "mechanical file/schema/text audit; runtime outputs/environments/.git excluded; not a semantic data-access authorization review"
+}

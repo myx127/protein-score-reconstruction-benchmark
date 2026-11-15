@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "data_kind": "synthetic",
+  "checks": ["projection_linear_identity", "unobserved_target_features_do_not_change_predictions", "column_name_order_invariance", "coverage_attenuation", "source_inverse_z"],
+  "installed_crnp_parity": "PASS"
+}

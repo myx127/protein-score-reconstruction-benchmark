@@ -1,0 +1,40 @@
+# Generated analysis outputs, including synthetic demonstration matrices
+outputs/
+private_runs/
+governed_inputs/
+data/private/
+*.local.json
+*.local.yaml
+*.local.yml
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.Renviron
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+# No patient-fitted serialized objects in the public repository
+*.rds
+*.RDS
+*.rda
+*.RData
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.parquet
+*.zip
+.DS_Store
+Thumbs.db

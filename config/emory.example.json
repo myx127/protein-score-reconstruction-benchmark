@@ -1,0 +1,14 @@
+{
+  "data_kind": "governed",
+  "source_matrix": "../../governed_inputs/HMACS_definition_matrix.csv",
+  "n_bootstrap": 10000,
+  "strict_paper_design": true,
+  "branches": [
+    {"input_id":"soma_csf","platform":"SomaScan","biofluid":"CSF","path":"../../governed_inputs/soma_csf.csv","input_scale":"raw"},
+    {"input_id":"soma_plasma","platform":"SomaScan","biofluid":"plasma","path":"../../governed_inputs/soma_plasma.csv","input_scale":"raw"},
+    {"input_id":"olink_csf","platform":"Olink","biofluid":"CSF","path":"../../governed_inputs/olink_csf.csv","input_scale":"raw"},
+    {"input_id":"olink_plasma","platform":"Olink","biofluid":"plasma","path":"../../governed_inputs/olink_plasma.csv","input_scale":"raw"},
+    {"input_id":"tmt_csf","platform":"TMT-MS","biofluid":"CSF","path":"../../governed_inputs/tmt_csf.csv","input_scale":"raw"},
+    {"input_id":"tmt_plasma","platform":"TMT-MS","biofluid":"plasma","path":"../../governed_inputs/tmt_plasma.csv","input_scale":"raw"}
+  ]
+}

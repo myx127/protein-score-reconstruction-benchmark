@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "data_kind": "independent_synthetic",
+  "comparison": "Python average-rank Spearman/Fisher-z recomputation versus portable R paired-assay point estimates",
+  "cells": 18,
+  "max_abs_difference": 4.163336342344337e-16,
+  "real_participant_data_used": false
+}

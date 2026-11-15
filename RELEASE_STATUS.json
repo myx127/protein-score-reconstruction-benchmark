@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_RELEASE_READY",
+  "version": "1.0.0",
+  "prepared_date": "2026-11-15",
+  "python_tests_passed": 15,
+  "R_projection_contracts_passed": 5,
+  "synthetic_timing_records": 360,
+  "real_participant_data_included": false,
+  "real_cohort_refit_performed": false,
+  "public_upload_performed": false,
+  "source_boundary": "standalone code, metadata and aggregate evidence only",
+  "data_access_contact": "zengyan68@wust.edu.cn",
+  "repository_url": null,
+  "archival_DOI": null
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "data_kind": "synthetic",
+  "participants": 35,
+  "evaluable_cells": 18,
+  "bootstrap_draws": 50,
+  "endpoint": "mean cellwise CRNP-minus-direct Fisher-z difference in Spearman correlations",
+  "environment": {
+    "observed": {
+      "python": "3.11.7",
+      "numpy": "1.26.4",
+      "pandas": "2.1.4",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.2.2"
+    },
+    "mismatch": {}
+  },
+  "manuscript_estimates_reproduced": false
+}

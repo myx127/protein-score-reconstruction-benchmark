@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "editable_build": "PASS",
+  "resource_resolution": "PASS",
+  "cli_help": "PASS",
+  "installation_scope": "isolated target using a separate public-code checkout; original analysis environment not modified",
+  "clean_OS_rebuild": false
+}

@@ -1,0 +1,9 @@
+# Numerical analysis environment. Python itself must be 3.11.7.
+# Supplementary plotting packages are not part of the frozen numerical core.
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.17.0
+scikit-learn==1.2.2
+threadpoolctl==3.6.0
+psutil==5.9.8
+matplotlib==3.8.0

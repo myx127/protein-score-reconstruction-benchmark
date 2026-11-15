@@ -1,0 +1,10 @@
+{
+  "data_kind": "governed",
+  "batches": {
+    "HMACS_Batch1": "../../governed_inputs/HMACS_Batch1_standardized.csv.gz",
+    "HMACS_Batch2": "../../governed_inputs/HMACS_Batch2_standardized.csv.gz"
+  },
+  "n_bootstrap": 2000,
+  "enforce_paper_fingerprints": true,
+  "timing_use_paper_order": true
+}

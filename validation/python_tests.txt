@@ -1,0 +1,20 @@
+test_failed_setting_is_retained_in_aggregate (test_core.AggregateTests.test_failed_setting_is_retained_in_aggregate) ... ok
+test_fast_bootstrap_matches_literal_paired_resampling (test_core.AggregateTests.test_fast_bootstrap_matches_literal_paired_resampling) ... ok
+test_published_aggregates_reconcile_with_72_cells (test_core.AggregateTests.test_published_aggregates_reconcile_with_72_cells) ... ok
+test_ratios_follow_equal_cell_aggregation (test_core.AggregateTests.test_ratios_follow_equal_cell_aggregation) ... ok
+test_cluster_bootstrap_retains_every_record_per_draw (test_core.FrozenCodeTests.test_cluster_bootstrap_retains_every_record_per_draw) ... ok
+test_extracted_bodies_and_vendored_R_hashes (test_core.FrozenCodeTests.test_extracted_bodies_and_vendored_R_hashes) ... ok
+test_nested_folds_are_disjoint (test_core.FrozenCodeTests.test_nested_folds_are_disjoint) ... ok
+test_nmse_uses_sample_variance_and_gain_identity (test_core.FrozenCodeTests.test_nmse_uses_sample_variance_and_gain_identity) ... ok
+test_one_se_selects_largest_eligible_alpha (test_core.FrozenCodeTests.test_one_se_selects_largest_eligible_alpha) ... ok
+test_score_normalization_and_column_identity (test_core.FrozenCodeTests.test_score_normalization_and_column_identity) ... ok
+test_complete_coverage_is_rejected_for_partial_mask_benchmark (test_core.InputBoundaryTests.test_complete_coverage_is_rejected_for_partial_mask_benchmark) ... ok
+test_governed_paths_cannot_enter_repository (test_core.InputBoundaryTests.test_governed_paths_cannot_enter_repository) ... ok
+test_matrix_preserves_string_identifiers (test_core.InputBoundaryTests.test_matrix_preserves_string_identifiers) ... ok
+test_nonfinite_and_duplicate_inputs_rejected (test_core.InputBoundaryTests.test_nonfinite_and_duplicate_inputs_rejected) ... ok
+test_source_target_participant_overlap_is_rejected (test_core.InputBoundaryTests.test_source_target_participant_overlap_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.721s
+
+OK

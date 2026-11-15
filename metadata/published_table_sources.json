@@ -1,0 +1,44 @@
+[
+  {
+    "file": "HMACS_overall.csv",
+    "SHA256": "28f90812aa2bceade654edba9b399076a469274aeecec4a4f01bf47107b02b85",
+    "rows": 4,
+    "columns": 35,
+    "scope": "published aggregate only"
+  },
+  {
+    "file": "HMACS_heterogeneity.csv",
+    "SHA256": "7c9357638064b579ac706db00e5f7cb5bd488e7b08a40ed67c92c00b4bceea79",
+    "rows": 32,
+    "columns": 11,
+    "scope": "published aggregate only"
+  },
+  {
+    "file": "HMACS_directions.csv",
+    "SHA256": "9dc35d9594e8c6391ca52f882b291ad10ef288436b43e1c61c1d8d7022f96576",
+    "rows": 8,
+    "columns": 35,
+    "scope": "published aggregate only"
+  },
+  {
+    "file": "Emory_concordance.csv",
+    "SHA256": "60bbdf6be5d1679e0601943d6c0ec0ed5f045448b36169c52532c4e79ca630ca",
+    "rows": 3,
+    "columns": 17,
+    "scope": "published aggregate only"
+  },
+  {
+    "file": "Timing_overall.csv",
+    "SHA256": "ecaf6a2be7d87f59251c219b495c98af9485853d0289ba6f4d5f5c51a5345e31",
+    "rows": 3,
+    "columns": 26,
+    "scope": "published aggregate only"
+  },
+  {
+    "file": "HMACS_72_settings.csv",
+    "SHA256": "81a891efafed7bfe19984a4253dd6a787f9661984d704697792e4798077661e4",
+    "rows": 72,
+    "columns": 43,
+    "scope": "published aggregate only"
+  }
+]

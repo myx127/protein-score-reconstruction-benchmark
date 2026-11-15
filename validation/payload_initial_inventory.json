@@ -1,0 +1,9 @@
+{
+  "modules": 9,
+  "proteins": 1222,
+  "mask_units": 36,
+  "direction_units": 72,
+  "random_seed_records": 6072,
+  "emory_mapping_rows": 4444,
+  "participant_matrices_copied": 0
+}

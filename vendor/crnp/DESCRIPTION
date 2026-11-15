@@ -1,0 +1,26 @@
+Package: crnp
+Type: Package
+Title: Coverage-Robust Projection of Fixed Protein Networks
+Version: 0.2.0
+Authors@R: person("Yuxi", "Mao", email = "3493118903@qq.com", role = c("aut", "cre", "cph"))
+Description: Projects a source-defined, fixed-weight protein network score into
+    target assays with incomplete structural protein coverage. The method uses
+    robust source protein correlations, source-only regularization, and a
+    coverage-adaptive recovery rule without selecting proteins or estimating
+    weights from target phenotypes. Utilities audit protein mappings, aggregate
+    multiple assay features, compare frozen projection methods, and evaluate
+    known-answer coverage loss.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    stats,
+    WGCNA
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

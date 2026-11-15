@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-11-15",
+  "package_version": "1.0.0",
+  "algorithm_version": "0.2.0",
+  "validation_input_kind": "independent_synthetic",
+  "python_tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "R_projection_contracts": {
+    "passed": 5,
+    "installed_crnp_0_2_0_parity": "PASS"
+  },
+  "frozen_driver_parity": {
+    "status": "PASS",
+    "data_kind": "independent_synthetic_predictions",
+    "settings": 72,
+    "directions": 2,
+    "bootstrap_replicates": 5,
+    "point_max_abs_difference": 0.0,
+    "bootstrap_max_abs_difference": 4.440892098500626e-16,
+    "comparison": "portable aggregate/cached bootstrap versus exact original frozen driver functions",
+    "participant_matrices_read": 0,
+    "source_driver_SHA256": "5aaceaa898f38cfb060ba8da9a1fb811f073b982895dfe4a83556c31a0619196"
+  },
+  "paired_assay_independent_point_parity": {
+    "status": "PASS",
+    "data_kind": "independent_synthetic",
+    "comparison": "Python average-rank Spearman/Fisher-z recomputation versus portable R paired-assay point estimates",
+    "cells": 18,
+    "max_abs_difference": 4.163336342344337e-16,
+    "real_participant_data_used": false
+  },
+  "synthetic_recovery": {
+    "status": "PASS",
+    "data_kind": "synthetic",
+    "settings": 24,
+    "directions": 2,
+    "bootstrap_draws": 50,
+    "methods": [
+      "direct",
+      "within_cf_ridge",
+      "cross_batch_ridge",
+      "CRNP_v0.2.0"
+    ],
+    "crnp_version": "0.2.0",
+    "reference": "normalized fixed-weight score",
+    "interval_scope": "fixed preprocessing/models/predictions; paired target participant bootstrap",
+    "environment": {
+      "observed": {
+        "python": "3.11.7",
+        "numpy": "1.26.4",
+        "pandas": "2.1.4",
+        "scipy": "1.17.0",
+        "scikit-learn": "1.2.2"
+      },
+      "mismatch": {}
+    },
+    "manuscript_estimates_reproduced": false
+  },
+  "synthetic_paired_assay": {
+    "status": "PASS",
+    "data_kind": "synthetic",
+    "participants": 35,
+    "evaluable_cells": 18,
+    "bootstrap_draws": 50,
+    "endpoint": "mean cellwise CRNP-minus-direct Fisher-z difference in Spearman correlations",
+    "environment": {
+      "observed": {
+        "python": "3.11.7",
+        "numpy": "1.26.4",
+        "pandas": "2.1.4",
+        "scipy": "1.17.0",
+        "scikit-learn": "1.2.2"
+      },
+      "mismatch": {}
+    },
+    "manuscript_estimates_reproduced": false
+  },
+  "synthetic_timing": {
+    "status": "PASS",
+    "data_kind": "synthetic",
+    "cases": 24,
+    "warmups": 72,
+    "formal_records": 360,
+    "repetitions": 5,
+    "numerical_threads": 1,
+    "max_abs_score_difference": 0.0,
+    "randomized_across_languages": true,
+    "fit_includes_tuning": true,
+    "reference": "independently fitted untimed predictions on identical inputs",
+    "runtime_scope": "resident workers; preloaded matrices; fit includes score/residual construction; whole target batch scoring; excludes startup/IO/common preprocessing",
+    "environment": {
+      "observed": {
+        "python": "3.11.7",
+        "numpy": "1.26.4",
+        "pandas": "2.1.4",
+        "scipy": "1.17.0",
+        "scikit-learn": "1.2.2"
+      },
+      "mismatch": {}
+    },
+    "r_environment": {
+      "R": "4.4.3",
+      "WGCNA": "1.73",
+      "LC_CTYPE": "Chinese (Simplified)_China.utf8",
+      "crnp": "0.2.0",
+      "data.table": "1.18.2.1",
+      "jsonlite": "2.0.0"
+    },
+    "manuscript_runtime_reproduced": false
+  },
+  "unicode_path_execution": "PASS",
+  "BOM_gzip_leading_zero_identifiers": "PASS",
+  "editable_installation": {
+    "status": "PASS",
+    "editable_build": "PASS",
+    "resource_resolution": "PASS",
+    "cli_help": "PASS",
+    "installation_scope": "isolated target using a separate public-code checkout; original analysis environment not modified",
+    "clean_OS_rebuild": false
+  },
+  "aggregate_figure_redrawing": {
+    "status": "PASS",
+    "pdf_figures": 3,
+    "png_figures": 3,
+    "participant_data_required": false,
+    "manuscript_PDF_snapshots_also_included": true,
+    "plotting_environment": {
+      "python": "3.11.7",
+      "matplotlib": "3.8.0"
+    }
+  },
+  "public_release_checks": {
+    "participant_level_matrices_in_package": 0,
+    "real_data_model_objects_in_package": 0,
+    "private_absolute_drive_paths_in_release_text": 0,
+    "code_body_and_vendored_R_hashes": "PASS",
+    "weight_metadata_numeric_roundtrip": "PASS",
+    "check_script": "tools/verify_release.py"
+  },
+  "not_performed": [
+    "real HMACS/Emory participant-matrix refitting",
+    "raw mass-spectrometry or module-discovery reproduction",
+    "clean-operating-system dependency rebuild",
+    "cross-platform validation",
+    "GitHub upload or Zenodo publication"
+  ],
+  "github_published": false,
+  "repository_url": null,
+  "archival_DOI": null
+}

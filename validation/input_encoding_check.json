@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": [
+    "UTF-8 BOM CSV/gzip",
+    "R preserves leading-zero participant and record IDs"
+  ],
+  "data_kind": "synthetic"
+}

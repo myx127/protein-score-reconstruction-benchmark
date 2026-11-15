@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and this versioned software release when using this benchmark."
+type: software
+title: "Benchmarking Protein Network Score Reconstruction under Structured Feature Missingness"
+version: 1.0.0
+date-released: 2026-11-15
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Xinyue
+  - family-names: Mao
+    given-names: Yuxi
+  - family-names: Zeng
+    given-names: Yan
+    email: zengyan68@wust.edu.cn
+abstract: "Analysis software, independent synthetic examples, frozen metadata and aggregate evidence for a benchmark of fixed protein-network score reconstruction under structural feature missingness. Participant-level cohort data are not included. Local preparation version; no publication or acceptance status is asserted."
+keywords:
+  - structural feature missingness
+  - protein network scores
+  - benchmark
+  - cross-batch transfer
+  - CRNP

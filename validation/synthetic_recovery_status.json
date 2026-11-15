@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "data_kind": "synthetic",
+  "settings": 24,
+  "directions": 2,
+  "bootstrap_draws": 50,
+  "methods": [
+    "direct",
+    "within_cf_ridge",
+    "cross_batch_ridge",
+    "CRNP_v0.2.0"
+  ],
+  "crnp_version": "0.2.0",
+  "reference": "normalized fixed-weight score",
+  "interval_scope": "fixed preprocessing/models/predictions; paired target participant bootstrap",
+  "environment": {
+    "observed": {
+      "python": "3.11.7",
+      "numpy": "1.26.4",
+      "pandas": "2.1.4",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.2.2"
+    },
+    "mismatch": {}
+  },
+  "manuscript_estimates_reproduced": false
+}

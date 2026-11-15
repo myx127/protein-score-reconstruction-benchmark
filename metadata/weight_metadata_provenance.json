@@ -1,0 +1,7 @@
+{
+  "hmacs_weight_numeric_roundtrip_exact": true,
+  "old_export_max_abs_difference": 1.1102230246251565e-16,
+  "source_weight_file_SHA256": "2b7d7d689ff6a28a05b7d35f2e8c60035f8729d3cad4950f626ed633267a261f",
+  "emory_weight_source_SHA256": "8c9d26e6a3ddc9c6adf5118439aadc934354e9144c1850b5bf5d49a57ec83085",
+  "method": "preserved source numeric strings; filtered metadata only; no participant rows copied"
+}

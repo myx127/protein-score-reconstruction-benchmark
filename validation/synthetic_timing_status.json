@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "data_kind": "synthetic",
+  "cases": 24,
+  "warmups": 72,
+  "formal_records": 360,
+  "repetitions": 5,
+  "numerical_threads": 1,
+  "max_abs_score_difference": 0.0,
+  "randomized_across_languages": true,
+  "fit_includes_tuning": true,
+  "reference": "independently fitted untimed predictions on identical inputs",
+  "runtime_scope": "resident workers; preloaded matrices; fit includes score/residual construction; whole target batch scoring; excludes startup/IO/common preprocessing",
+  "environment": {
+    "observed": {
+      "python": "3.11.7",
+      "numpy": "1.26.4",
+      "pandas": "2.1.4",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.2.2"
+    },
+    "mismatch": {}
+  },
+  "r_environment": {
+    "R": "4.4.3",
+    "WGCNA": "1.73",
+    "LC_CTYPE": "Chinese (Simplified)_China.utf8",
+    "crnp": "0.2.0",
+    "data.table": "1.18.2.1",
+    "jsonlite": "2.0.0"
+  },
+  "manuscript_runtime_reproduced": false
+}
