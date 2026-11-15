@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "repository_url": "https://github.com/myx127/protein-score-reconstruction-benchmark",
+  "visibility": "public",
+  "owner": "myx127",
+  "branch": "main",
+  "initial_upload_commit": "4cd4f3bea4ee722afc15338c834b75c6b2d9fe38",
+  "initial_upload_files": 97,
+  "unauthenticated_API_access": "PASS",
+  "repository_created_at": "2026-11-15T09:42:08Z",
+  "data_boundary": "public package manifest only; no participant matrices or fitted private models"
+}
