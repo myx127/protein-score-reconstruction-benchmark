@@ -1,6 +1,6 @@
 # 上传与版本归档
 
-本轮仅准备本地代码包，没有创建 GitHub 仓库或向外部上传文件。建议仓库英文名为 `protein-score-reconstruction-benchmark`，其根目录就是本代码包目录；不要把整个研究工程或原始桌面目录加入仓库。
+本代码包对应公开仓库 [myx127/protein-score-reconstruction-benchmark](https://github.com/myx127/protein-score-reconstruction-benchmark)，论文引用版本为 [v1.0.0](https://github.com/myx127/protein-score-reconstruction-benchmark/releases/tag/v1.0.0)。本目录就是仓库根目录。以下保留首次发布与后续更新的操作说明；现有仓库更新时直接提交、推送，不需再次创建同名仓库。
 
 ## 推荐上传顺序
 

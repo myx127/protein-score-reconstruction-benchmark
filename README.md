@@ -1,6 +1,8 @@
 # Protein network score reconstruction benchmark
 
-Code accompanying **Benchmarking Protein Network Score Reconstruction under Structured Feature Missingness**. Prepared locally for public release, version **1.0.0**; this is not a claim of publication or conference acceptance. The CRNP algorithm included here remains version **0.2.0**.
+Code accompanying **Benchmarking Protein Network Score Reconstruction under Structured Feature Missingness**, version **1.0.0**. The CRNP algorithm included here remains version **0.2.0**. Code release does not assert manuscript publication or conference acceptance.
+
+**Repository:** [myx127/protein-score-reconstruction-benchmark](https://github.com/myx127/protein-score-reconstruction-benchmark) · **Version:** [v1.0.0](https://github.com/myx127/protein-score-reconstruction-benchmark/releases/tag/v1.0.0)
 
 [中文使用说明](README_中文.md) · [Installation](docs/INSTALL.md) · [Input contracts](docs/INPUT_SCHEMAS.md) · [Data access](docs/DATA_ACCESS.md) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
@@ -74,6 +76,6 @@ The benchmark uses normalized fixed-weight scores. Source residual ridge and CRN
 
 ## Citation, license and contact
 
-See [CITATION.cff](CITATION.cff). Authors: Xinyue Wang, Yuxi Mao and Yan Zeng. A repository URL/archival DOI can be added after the owner creates the public repository and release; no identifier is invented here. Code is MIT licensed; see [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The code license grants no participant-data access rights.
+See [CITATION.cff](CITATION.cff). Authors: Xinyue Wang, Yuxi Mao and Yan Zeng. Cite the repository and versioned release above. No archival DOI has been issued for this release. Code is MIT licensed; see [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The code license grants no participant-data access rights.
 
 HMACS access requests: **Yan Zeng, zengyan68@wust.edu.cn**, subject to the applicable cohort/institutional review and data-use conditions. Requests do not guarantee approval. Third-party data remain subject to their original conditions.

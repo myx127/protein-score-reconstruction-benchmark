@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_RELEASE_READY",
+  "status": "PUBLIC_REPOSITORY_CREATED",
   "version": "1.0.0",
   "prepared_date": "2026-11-15",
   "python_tests_passed": 15,
@@ -10,6 +10,9 @@
   "public_upload_performed": false,
   "source_boundary": "standalone code, metadata and aggregate evidence only",
   "data_access_contact": "zengyan68@wust.edu.cn",
-  "repository_url": null,
-  "archival_DOI": null
+  "repository_url": "https://github.com/myx127/protein-score-reconstruction-benchmark",
+  "archival_DOI": null,
+  "release_tag": "v1.0.0",
+  "release_url": "https://github.com/myx127/protein-score-reconstruction-benchmark/releases/tag/v1.0.0",
+  "release_published": false
 }

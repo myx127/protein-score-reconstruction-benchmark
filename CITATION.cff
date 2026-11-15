@@ -4,6 +4,8 @@ type: software
 title: "Benchmarking Protein Network Score Reconstruction under Structured Feature Missingness"
 version: 1.0.0
 date-released: 2026-11-15
+repository-code: "https://github.com/myx127/protein-score-reconstruction-benchmark"
+url: "https://github.com/myx127/protein-score-reconstruction-benchmark/releases/tag/v1.0.0"
 license: MIT
 authors:
   - family-names: Wang
@@ -13,7 +15,7 @@ authors:
   - family-names: Zeng
     given-names: Yan
     email: zengyan68@wust.edu.cn
-abstract: "Analysis software, independent synthetic examples, frozen metadata and aggregate evidence for a benchmark of fixed protein-network score reconstruction under structural feature missingness. Participant-level cohort data are not included. Local preparation version; no publication or acceptance status is asserted."
+abstract: "Analysis software, independent synthetic examples, frozen metadata and aggregate evidence for a benchmark of fixed protein-network score reconstruction under structural feature missingness. Participant-level cohort data are not included. Software release does not assert manuscript publication or acceptance."
 keywords:
   - structural feature missingness
   - protein network scores

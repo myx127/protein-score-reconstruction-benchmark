@@ -2,6 +2,8 @@
 
 本目录已整理为可独立上传 GitHub 的代码仓库，代码包版本为 **1.0.0**。对应论文为 *Benchmarking Protein Network Score Reconstruction under Structured Feature Missingness*。其中 CRNP 的算法版本仍为 **0.2.0**。
 
+公开仓库：[myx127/protein-score-reconstruction-benchmark](https://github.com/myx127/protein-score-reconstruction-benchmark)；论文引用版本：[v1.0.0](https://github.com/myx127/protein-score-reconstruction-benchmark/releases/tag/v1.0.0)。
+
 **公开内容包括代码、独立模拟示例、蛋白与覆盖元数据、论文汇总结果和图件；不包含 HMACS 或 Emory 参与者级定量数据、真实参与者评分或用真实数据拟合的模型。**
 
 ## 先运行什么
@@ -61,6 +63,6 @@ python -B scripts/run_benchmark.py emory --config ../governed_inputs/emory.local
 
 ## 上传 GitHub
 
-可以将本目录作为仓库根目录，按 [上传指南](docs/GITHUB_UPLOAD.md) 操作。本轮未创建公共仓库、未上传文件。`.gitignore` 已排除运行目录、环境和本地配置；它不能替代上传前检查。
+本目录是上述 GitHub 仓库的根目录，后续更新按 [上传指南](docs/GITHUB_UPLOAD.md) 操作。`.gitignore` 已排除运行目录、环境和本地配置；它不能替代上传前检查。
 
-`validation/` 保存本轮实际运行的脱敏验证摘要。`SHA256SUMS.json` 用于核对发布文件。仓库创建后，再把真实 URL 加入 README、CITATION.cff 和论文的 Code availability；DOI 应在真实归档成功后填写。
+`validation/` 保存本地准备阶段实际运行的脱敏验证摘要。`SHA256SUMS.json` 用于核对发布文件。仓库及版本链接已加入 README 和 CITATION.cff；DOI 应在真实归档成功后填写。当前发布状态见 `RELEASE_STATUS.json`。
